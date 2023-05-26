@@ -1,0 +1,28 @@
+#parent{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    column-gap:20px
+    /* justify-content: space-evenly; */
+}
+
+/* flex-direction properties :
+row,row-revers,column,column-revers */
+
+ /*justify-content properties: 
+start,center,end,space-between,space-around,space-evenly */ 
+
+/*
+align-items properties
+start,center,end */
+
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+}
+
